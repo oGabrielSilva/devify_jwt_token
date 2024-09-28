@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "props.jwt.secret",
+      "type": "java.lang.String",
+      "description": "Segredo para o token JWT"
+    },
+    {
+      "name": "props.jwt.issuer",
+      "type": "java.lang.String",
+      "description": "Emissor do Token JWT"
+    },
+    {
+      "name": "props.jwt.audience",
+      "type": "java.lang.String",
+      "description": "Quem receberá o Token?"
+    }
+  ]
+}
